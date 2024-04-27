@@ -1,0 +1,17 @@
+{
+  "name": "telegram-bot-16-personalities",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hudymenko Yevhenii",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "google-auth-library": "^9.9.0",
+    "google-spreadsheet": "^4.1.1",
+    "node-telegram-bot-api": "^0.65.1"
+  }
+}
