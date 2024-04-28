@@ -194,6 +194,9 @@ bot.on("callback_query", async function onCallbackQuery(callbackQuery) {
                         userProgress = user.progress;
                         maxUserQuestions = user.maxQuestions;
                         tempQuest = questions.en[userProgress];
+                        user.answers.set(userProgress, {
+                            id: tempQuest.id,
+                        });
                         bot.sendMessage(
                             msg.chat.id,
                             `Question ${
@@ -226,13 +229,19 @@ bot.on("callback_query", async function onCallbackQuery(callbackQuery) {
             case "answer":
                 console.log(action);
                 user = db.get(msg.chat.id);
-                user.answers.set(action_detail[1], +action_detail[2]);
+                user.answers.set(+action_detail[1], {
+                    ...db.get(msg.chat.id).answers.get(+action_detail[1]),
+                    value: +action_detail[2],
+                });
                 userProgress = ++db.get(msg.chat.id).progress;
                 maxUserQuestions = db.get(msg.chat.id).maxQuestions;
                 if (userProgress == maxUserQuestions) {
                     console.log("Тест завершено");
                 } else {
                     tempQuest = questions.en[userProgress];
+                    user.answers.set(userProgress, {
+                        id: tempQuest.id,
+                    });
                     bot.editMessageText(
                         `Question ${userProgress + 1}/${maxUserQuestions} \n${
                             tempQuest.text
