@@ -34,6 +34,31 @@ function convertToArrays(options, questionId) {
     return result;
 }
 
+async function postAnswers(answers, retries = 0, maxRetries = 3) {
+    let results = (
+        await axios.post(
+            "https://www.16personalities-api.com/api/personality/submit",
+            {
+                answers,
+                gender: "Other",
+            }
+        )
+    ).data;
+    if (results == null) {
+        if (retries < maxRetries) {
+            return postAnswers(answers, retries + 1);
+        }
+    }
+    return results;
+}
+
+async function sendAnswers(answers) {
+    console.log(answers);
+    let results = await postAnswers(answers);
+    const userDataFromTable = await gSController.getTableData(results.fullCode);
+    return userDataFromTable;
+}
+
 db.set(
     "greeting_ua",
     "Вітаю, мене звуть Анатолій Манолій, я радий бачити твою зацікавленість до гри," +
@@ -49,6 +74,16 @@ db.set(
     "Приветствую, меня зовут Анатолий Манолий, я рад видеть твою заинтересованность к игре, " +
         "но перед ней, пожалуйста, пройди тест (7мин.) и чтобы начать, жми кнопку ниже👇"
 );
+
+db.set("bye_ua", "Дякую, вашу відповідь було записано, до зустрічі на грі");
+db.set("bye_en", "Thank you for your response. See you soon");
+db.set("bye_ru", "Благодарю, ответ записан, до встречи на игре");
+
+let cantGoBackText = {
+    ua: "Ви вже на першому питанні",
+    en: "You are already on first question",
+    ru: "Вы уже на первом вопросе",
+};
 
 var keyboards = {
     main_menu: {
@@ -236,7 +271,28 @@ bot.on("callback_query", async function onCallbackQuery(callbackQuery) {
                 userProgress = ++db.get(msg.chat.id).progress;
                 maxUserQuestions = db.get(msg.chat.id).maxQuestions;
                 if (userProgress == maxUserQuestions) {
-                    console.log("Тест завершено");
+                    bot.deleteMessage(msg.chat.id, msg.message_id);
+                    let userData = await sendAnswers([
+                        ...user.answers.values(),
+                    ]);
+                    bot.sendMessage(
+                        msg.chat.id,
+                        db.get(`bye_${user.language}`)
+                    );
+                    bot.sendMessage(
+                        process.env.STATS_RECIEVER_ID,
+                        JSON.stringify(
+                            {
+                                "Имя пользователя": `${user.from.first_name} ${
+                                    user.from.last_name || ""
+                                }`,
+                                Никнейм: `${user.from.username || "Нет"}`,
+                                ...userData,
+                            },
+                            null,
+                            2
+                        )
+                    );
                 } else {
                     tempQuest = questions.en[userProgress];
                     user.answers.set(userProgress, {
@@ -263,10 +319,10 @@ bot.on("callback_query", async function onCallbackQuery(callbackQuery) {
                 user = db.get(msg.chat.id);
                 userProgress = --user.progress;
                 if (userProgress < 0) {
-                    // TODO - перевести системные уведы
+                    userProgress = 0;
                     return bot.sendMessage(
                         msg.chat.id,
-                        "You are already on first question"
+                        cantGoBackText[user.language]
                     );
                 } else {
                     maxUserQuestions = db.get(msg.chat.id).maxQuestions;
