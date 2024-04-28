@@ -1,0 +1,782 @@
+[
+    {
+        "id": "WW91IHJlZ3VsYXJseSBtYWtlIG5ldyBmcmllbmRzLg",
+        "text": "Ви регулярно заводите друзів.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "Q29tcGxleCBhbmQgbm92ZWwgaWRlYXMgZXhjaXRlIHlvdSBtb3JlIHRoYW4gc2ltcGxlIGFuZCBzdHJhaWdodGZvcndhcmQgb25lcy4",
+        "text": "Складні та нові ідеї хвилюють вас більше, ніж прості та зрозумілі.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IHVzdWFsbHkgZmVlbCBtb3JlIHBlcnN1YWRlZCBieSB3aGF0IHJlc29uYXRlcyBlbW90aW9uYWxseSB3aXRoIHlvdSB0aGFuIGJ5IGZhY3R1YWwgYXJndW1lbnRzLg",
+        "text": "Зазвичай вас більше переконує те, що знаходить у вас емоційний відгук, ніж фактичні аргументи.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91ciBsaXZpbmcgYW5kIHdvcmtpbmcgc3BhY2VzIGFyZSBjbGVhbiBhbmQgb3JnYW5pemVkLg",
+        "text": "Ваші житлові та робочі приміщення чисті та організовані.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IHVzdWFsbHkgc3RheSBjYWxtLCBldmVuIHVuZGVyIGEgbG90IG9mIHByZXNzdXJlLg",
+        "text": "Зазвичай ви спокійні, навіть під напругою.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IGZpbmQgdGhlIGlkZWEgb2YgbmV0d29ya2luZyBvciBwcm9tb3RpbmcgeW91cnNlbGYgdG8gc3RyYW5nZXJzIHZlcnkgZGF1bnRpbmcu",
+        "text": "Вас дуже лякає ідея налагодження зв'язків або просування себе незнайомцям.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IHByaW9yaXRpemUgYW5kIHBsYW4gdGFza3MgZWZmZWN0aXZlbHksIG9mdGVuIGNvbXBsZXRpbmcgdGhlbSB3ZWxsIGJlZm9yZSB0aGUgZGVhZGxpbmUu",
+        "text": "Ви ефективно розставляєте пріоритети та плануєте завдання, часто виконуючи їх задовго до встановленого терміну.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "UGVvcGxl4oCZcyBzdG9yaWVzIGFuZCBlbW90aW9ucyBzcGVhayBsb3VkZXIgdG8geW91IHRoYW4gbnVtYmVycyBvciBkYXRhLg",
+        "text": "Історії та емоції людей вам важливіші за числа та дані.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IGxpa2UgdG8gdXNlIG9yZ2FuaXppbmcgdG9vbHMgbGlrZSBzY2hlZHVsZXMgYW5kIGxpc3RzLg",
+        "text": "Вам подобається використовувати інструменти організації, такі як розклади та списки.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "RXZlbiBhIHNtYWxsIG1pc3Rha2UgY2FuIGNhdXNlIHlvdSB0byBkb3VidCB5b3VyIG92ZXJhbGwgYWJpbGl0aWVzIGFuZCBrbm93bGVkZ2Uu",
+        "text": "Навіть невелика помилка може змусити вас засумніватися у своїх загальних здібностях та знаннях.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IGZlZWwgY29tZm9ydGFibGUganVzdCB3YWxraW5nIHVwIHRvIHNvbWVvbmUgeW91IGZpbmQgaW50ZXJlc3RpbmcgYW5kIHN0cmlraW5nIHVwIGEgY29udmVyc2F0aW9uLg",
+        "text": "Ви почуваєтеся комфортно, просто підійшовши до людини, яка вам цікава, і зав'язавши розмову.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IGFyZSBub3QgdG9vIGludGVyZXN0ZWQgaW4gZGlzY3Vzc2lvbnMgYWJvdXQgdmFyaW91cyBpbnRlcnByZXRhdGlvbnMgb2YgY3JlYXRpdmUgd29ya3Mu",
+        "text": "Вас не надто цікавлять дискусії про різні інтерпретації творчих робіт.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IHByaW9yaXRpemUgZmFjdHMgb3ZlciBwZW9wbGXigJlzIGZlZWxpbmdzIHdoZW4gZGV0ZXJtaW5pbmcgYSBjb3Vyc2Ugb2YgYWN0aW9uLg",
+        "text": "Ви віддаєте пріоритет фактам над почуттями людей, визначаючи курс дій.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IG9mdGVuIGFsbG93IHRoZSBkYXkgdG8gdW5mb2xkIHdpdGhvdXQgYW55IHNjaGVkdWxlIGF0IGFsbC4",
+        "text": "Ви часто дозволяєте своєму дню проходити взагалі без будь-якого розкладу.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IHJhcmVseSB3b3JyeSBhYm91dCB3aGV0aGVyIHlvdSBtYWtlIGEgZ29vZCBpbXByZXNzaW9uIG9uIHBlb3BsZSB5b3UgbWVldC4",
+        "text": "Ви рідко турбуєтеся про те, чи справляєте ви гарне враження на людей, яких зустрічаєте.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IGVuam95IHBhcnRpY2lwYXRpbmcgaW4gdGVhbS1iYXNlZCBhY3Rpdml0aWVzLg",
+        "text": "Вам подобається брати участь у командних заходах.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IGVuam95IGV4cGVyaW1lbnRpbmcgd2l0aCBuZXcgYW5kIHVudGVzdGVkIGFwcHJvYWNoZXMu",
+        "text": "Вам подобається експериментувати з новими та неперевіреними підходами.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IHByaW9yaXRpemUgYmVpbmcgc2Vuc2l0aXZlIG92ZXIgYmVpbmcgY29tcGxldGVseSBob25lc3Qu",
+        "text": "Ви віддаєте перевагу делікатності, а не повній чесності.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IGFjdGl2ZWx5IHNlZWsgb3V0IG5ldyBleHBlcmllbmNlcyBhbmQga25vd2xlZGdlIGFyZWFzIHRvIGV4cGxvcmUu",
+        "text": "Ви активно шукаєте новий досвід та галузі знань для вивчення.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IGFyZSBwcm9uZSB0byB3b3JyeWluZyB0aGF0IHRoaW5ncyB3aWxsIHRha2UgYSB0dXJuIGZvciB0aGUgd29yc2Uu",
+        "text": "Ви схильні турбуватися, що справи підуть на гірше.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IGVuam95IHNvbGl0YXJ5IGhvYmJpZXMgb3IgYWN0aXZpdGllcyBtb3JlIHRoYW4gZ3JvdXAgb25lcy4",
+        "text": "Вам більше подобаються відокремлені хобі чи заняття, ніж групові.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IGNhbm5vdCBpbWFnaW5lIHlvdXJzZWxmIHdyaXRpbmcgZmljdGlvbmFsIHN0b3JpZXMgZm9yIGEgbGl2aW5nLg",
+        "text": "Ви не можете собі уявити, що заробляєте життя написанням вигаданих історій.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IGZhdm9yIGVmZmljaWVuY3kgaW4gZGVjaXNpb25zLCBldmVuIGlmIGl0IG1lYW5zIGRpc3JlZ2FyZGluZyBzb21lIGVtb3Rpb25hbCBhc3BlY3RzLg",
+        "text": "Ви віддаєте перевагу ефективності прийняття рішень, навіть якщо це означає ігнорування деяких емоційних аспектів.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IHByZWZlciB0byBkbyB5b3VyIGNob3JlcyBiZWZvcmUgYWxsb3dpbmcgeW91cnNlbGYgdG8gcmVsYXgu",
+        "text": "Ви волієте зробити свої рутинні справи, перш ніж дозволити собі розслабитися.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "SW4gZGlzYWdyZWVtZW50cywgeW91IHByaW9yaXRpemUgcHJvdmluZyB5b3VyIHBvaW50IG92ZXIgcHJlc2VydmluZyB0aGUgZmVlbGluZ3Mgb2Ygb3RoZXJzLg",
+        "text": "У разі спорів ви надаєте перевагу доказу своєї точки зору, а не збереженню почуттів інших.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IHVzdWFsbHkgd2FpdCBmb3Igb3RoZXJzIHRvIGludHJvZHVjZSB0aGVtc2VsdmVzIGZpcnN0IGF0IHNvY2lhbCBnYXRoZXJpbmdzLg",
+        "text": "Зазвичай ви чекаєте, поки інші представляться першими на громадських заходах.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91ciBtb29kIGNhbiBjaGFuZ2UgdmVyeSBxdWlja2x5Lg",
+        "text": "Ваш настрій може змінитися дуже швидко.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IGFyZSBub3QgZWFzaWx5IHN3YXllZCBieSBlbW90aW9uYWwgYXJndW1lbnRzLg",
+        "text": "На вас нелегко вплинути емоційними аргументами.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IG9mdGVuIGVuZCB1cCBkb2luZyB0aGluZ3MgYXQgdGhlIGxhc3QgcG9zc2libGUgbW9tZW50Lg",
+        "text": "Ви часто робите щось в останній момент.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IGVuam95IGRlYmF0aW5nIGV0aGljYWwgZGlsZW1tYXMu",
+        "text": "Вам подобається обговорювати етичні дилеми.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IHVzdWFsbHkgcHJlZmVyIHRvIGJlIGFyb3VuZCBvdGhlcnMgcmF0aGVyIHRoYW4gb24geW91ciBvd24u",
+        "text": "Зазвичай ви віддаєте переввагу перебуванню поряд з іншими, а не на самоті.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IGJlY29tZSBib3JlZCBvciBsb3NlIGludGVyZXN0IHdoZW4gdGhlIGRpc2N1c3Npb24gZ2V0cyBoaWdobHkgdGhlb3JldGljYWwu",
+        "text": "Вам стає нудно або ви втрачаєте інтерес, коли обговорення стає суто теоретичним.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "V2hlbiBmYWN0cyBhbmQgZmVlbGluZ3MgY29uZmxpY3QsIHlvdSB1c3VhbGx5IGZpbmQgeW91cnNlbGYgZm9sbG93aW5nIHlvdXIgaGVhcnQu",
+        "text": "Коли факти та почуття суперечать один одному, ви зазвичай слідуєте своєму серцю.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IGZpbmQgaXQgY2hhbGxlbmdpbmcgdG8gbWFpbnRhaW4gYSBjb25zaXN0ZW50IHdvcmsgb3Igc3R1ZHkgc2NoZWR1bGUu",
+        "text": "Вам складно підтримувати постійний графік роботи чи навчання.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IHJhcmVseSBzZWNvbmQtZ3Vlc3MgdGhlIGNob2ljZXMgdGhhdCB5b3UgaGF2ZSBtYWRlLg",
+        "text": "Ви рідко вагаєтесь у виборі, який зробили.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91ciBmcmllbmRzIHdvdWxkIGRlc2NyaWJlIHlvdSBhcyBsaXZlbHkgYW5kIG91dGdvaW5nLg",
+        "text": "Ваші друзі описали б вас як веселу та товариську людину.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IGFyZSBkcmF3biB0byB2YXJpb3VzIGZvcm1zIG9mIGNyZWF0aXZlIGV4cHJlc3Npb24sIHN1Y2ggYXMgd3JpdGluZy4",
+        "text": "Вас залучають різні форми творчого самовираження, наприклад писемність.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IHVzdWFsbHkgYmFzZSB5b3VyIGNob2ljZXMgb24gb2JqZWN0aXZlIGZhY3RzIHJhdGhlciB0aGFuIGVtb3Rpb25hbCBpbXByZXNzaW9ucy4",
+        "text": "Зазвичай ви ґрунтуєте свій вибір на об'єктивних фактах, а не на емоційних враженнях.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IGxpa2UgdG8gaGF2ZSBhIHRvLWRvIGxpc3QgZm9yIGVhY2ggZGF5Lg",
+        "text": "Вам подобається мати список справ на кожен день.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IHJhcmVseSBmZWVsIGluc2VjdXJlLg",
+        "text": "Ви рідко почуваєтеся невпевнено.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IGF2b2lkIG1ha2luZyBwaG9uZSBjYWxscy4",
+        "text": "Ви уникаєте телефонних дзвінків.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IGVuam95IGV4cGxvcmluZyB1bmZhbWlsaWFyIGlkZWFzIGFuZCB2aWV3cG9pbnRzLg",
+        "text": "Вам подобається досліджувати незнайомі ідеї та точки зору.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IGNhbiBlYXNpbHkgY29ubmVjdCB3aXRoIHBlb3BsZSB5b3UgaGF2ZSBqdXN0IG1ldC4",
+        "text": "Ви можете легко спілкуватися з людьми, яких щойно зустріли.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "SWYgeW91ciBwbGFucyBhcmUgaW50ZXJydXB0ZWQsIHlvdXIgdG9wIHByaW9yaXR5IGlzIHRvIGdldCBiYWNrIG9uIHRyYWNrIGFzIHNvb24gYXMgcG9zc2libGUu",
+        "text": "Якщо ваші плани порушуються, ваш головний пріоритет — якнайшвидше повернутися в потрібне русло.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IGFyZSBzdGlsbCBib3RoZXJlZCBieSBtaXN0YWtlcyB0aGF0IHlvdSBtYWRlIGEgbG9uZyB0aW1lIGFnby4",
+        "text": "Вас все ще турбують помилки, які ви зробили давним-давно.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IGFyZSBub3QgdG9vIGludGVyZXN0ZWQgaW4gZGlzY3Vzc2luZyB0aGVvcmllcyBvbiB3aGF0IHRoZSB3b3JsZCBjb3VsZCBsb29rIGxpa2UgaW4gdGhlIGZ1dHVyZS4",
+        "text": "Ви не надто зацікавлені в обговоренні теорій про те, як може виглядати світ у майбутньому.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91ciBlbW90aW9ucyBjb250cm9sIHlvdSBtb3JlIHRoYW4geW91IGNvbnRyb2wgdGhlbS4",
+        "text": "Ваші емоції контролюють вас більше, ніж ви їх.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "V2hlbiBtYWtpbmcgZGVjaXNpb25zLCB5b3UgZm9jdXMgbW9yZSBvbiBob3cgdGhlIGFmZmVjdGVkIHBlb3BsZSBtaWdodCBmZWVsIHRoYW4gb24gd2hhdCBpcyBtb3N0IGxvZ2ljYWwgb3IgZWZmaWNpZW50Lg",
+        "text": "Приймаючи рішення, ви більше зосереджуєтеся на тому, як можуть почуватися зачеплені люди, ніж на тому, що найбільш логічно чи ефективно.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91ciBwZXJzb25hbCB3b3JrIHN0eWxlIGlzIGNsb3NlciB0byBzcG9udGFuZW91cyBidXJzdHMgb2YgZW5lcmd5IHRoYW4gb3JnYW5pemVkIGFuZCBjb25zaXN0ZW50IGVmZm9ydHMu",
+        "text": "Ваш особистий стиль роботи ближче до спонтанних сплесків енергії, ніж до організованих та послідовних зусиль.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "V2hlbiBzb21lb25lIHRoaW5rcyBoaWdobHkgb2YgeW91LCB5b3Ugd29uZGVyIGhvdyBsb25nIGl0IHdpbGwgdGFrZSB0aGVtIHRvIGZlZWwgZGlzYXBwb2ludGVkIGluIHlvdS4",
+        "text": "Коли хтось високої думки про вас, ви задаєтесь питанням, скільки часу йому знадобиться, щоб розчаруватися у вас.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IHdvdWxkIGxvdmUgYSBqb2IgdGhhdCByZXF1aXJlcyB5b3UgdG8gd29yayBhbG9uZSBtb3N0IG9mIHRoZSB0aW1lLg",
+        "text": "Вам би сподобалася робота, яка вимагає від вас більшу частину часу працювати поодинці.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IGJlbGlldmUgdGhhdCBwb25kZXJpbmcgYWJzdHJhY3QgcGhpbG9zb3BoaWNhbCBxdWVzdGlvbnMgaXMgYSB3YXN0ZSBvZiB0aW1lLg",
+        "text": "Ви вважаєте, що роздуми над абстрактними філософськими питаннями — марна трата часу.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IGZlZWwgbW9yZSBkcmF3biB0byBidXN5LCBidXN0bGluZyBhdG1vc3BoZXJlcyB0aGFuIHRvIHF1aWV0LCBpbnRpbWF0ZSBwbGFjZXMu",
+        "text": "Вас більше тягне у жваву, метушливу атмосферу, ніж у тихі, інтимні місця.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "SWYgYSBkZWNpc2lvbiBmZWVscyByaWdodCB0byB5b3UsIHlvdSBvZnRlbiBhY3Qgb24gaXQgd2l0aG91dCBuZWVkaW5nIGZ1cnRoZXIgcHJvb2Yu",
+        "text": "Якщо рішення здається вам правильним, ви часто дієте відповідно до нього, не потребуючи додаткових доказів.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IG9mdGVuIGZlZWwgb3ZlcndoZWxtZWQu",
+        "text": "Ви часто почуваєтеся перевантаженим.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IGNvbXBsZXRlIHRoaW5ncyBtZXRob2RpY2FsbHkgd2l0aG91dCBza2lwcGluZyBvdmVyIGFueSBzdGVwcy4",
+        "text": "Ви виконуєте завдання методично, не пропускаючи жодного кроку.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IHByZWZlciB0YXNrcyB0aGF0IHJlcXVpcmUgeW91IHRvIGNvbWUgdXAgd2l0aCBjcmVhdGl2ZSBzb2x1dGlvbnMgcmF0aGVyIHRoYW4gZm9sbG93IGNvbmNyZXRlIHN0ZXBzLg",
+        "text": "Ви віддаєте перевагу завданням, які вимагають від вас творчих рішень, а не виконання конкретних кроків.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IGFyZSBtb3JlIGxpa2VseSB0byByZWx5IG9uIGVtb3Rpb25hbCBpbnR1aXRpb24gdGhhbiBsb2dpY2FsIHJlYXNvbmluZyB3aGVuIG1ha2luZyBhIGNob2ljZS4",
+        "text": "При виборі ви скоріше покладаєтеся на емоційну інтуїцію, ніж на логічні міркування.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IHN0cnVnZ2xlIHdpdGggZGVhZGxpbmVzLg",
+        "text": "У вас проблеми з кінцевими термінами.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    },
+    {
+        "id": "WW91IGZlZWwgY29uZmlkZW50IHRoYXQgdGhpbmdzIHdpbGwgd29yayBvdXQgZm9yIHlvdS4",
+        "text": "Ви впевнені, що у вас все вийде.",
+        "options": [
+            { "text": "Категорично не згоден", "value": -3 },
+            { "text": "Помірно не згоден", "value": -2 },
+            { "text": "Трохи не згоден", "value": -1 },
+            { "text": "50/50", "value": 0 },
+            { "text": "Трохи згоден", "value": 1 },
+            { "text": "Помірно згоден", "value": 2 },
+            { "text": "Категорично згоден", "value": 3 }
+        ]
+    }
+]

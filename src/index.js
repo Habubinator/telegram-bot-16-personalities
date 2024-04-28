@@ -168,9 +168,14 @@ const languages = {
 };
 
 let questions = {
-    ua: null,
-    en: null,
-    ru: null,
+    ua: require("./test/ua.json"),
+    en: require("./test/en.json"),
+    ru: require("./test/ru.json"),
+};
+let questionNumberText = {
+    en: "Question",
+    ru: "Вопрос",
+    ua: "Питання",
 };
 
 bot.setMyCommands([{ command: "/start", description: "Запустить тест" }]);
@@ -216,50 +221,31 @@ bot.on("callback_query", async function onCallbackQuery(callbackQuery) {
                 });
                 break;
             case "start":
-                questions.en = (
-                    await axios.get(
-                        "https://www.16personalities-api.com/api/personality/questions"
-                    )
-                ).data;
-                db.get(msg.chat.id).maxQuestions = questions.en.length;
                 bot.deleteMessage(msg.chat.id, msg.message_id);
-                switch (action_detail[1]) {
-                    case "en":
-                        user = db.get(msg.chat.id);
-                        userProgress = user.progress;
-                        maxUserQuestions = user.maxQuestions;
-                        tempQuest = questions.en[userProgress];
-                        user.answers.set(userProgress, {
-                            id: tempQuest.id,
-                        });
-                        bot.sendMessage(
-                            msg.chat.id,
-                            `Question ${
-                                userProgress + 1
-                            }/${maxUserQuestions} \n${tempQuest.text}`,
-                            {
-                                reply_markup: {
-                                    inline_keyboard: convertToArrays(
-                                        tempQuest.options,
-                                        userProgress
-                                    ),
-                                },
-                            }
-                        );
-                        break;
-                    case "ru":
-                        bot.sendMessage(
-                            msg.chat.id,
-                            "Функционал пока-то не готов, попробуйте English версию"
-                        );
-                        break;
-                    case "ua":
-                        bot.sendMessage(
-                            msg.chat.id,
-                            "Функціонал ще не готовий, спробуйте English версію"
-                        );
-                        break;
-                }
+                user = db.get(msg.chat.id);
+                user.language = action_detail[1] || en;
+                db.get(msg.chat.id).maxQuestions =
+                    questions[`${user.language}`].length;
+                userProgress = user.progress;
+                maxUserQuestions = user.maxQuestions;
+                tempQuest = questions[`${user.language}`][userProgress];
+                user.answers.set(userProgress, {
+                    id: tempQuest.id,
+                });
+                bot.sendMessage(
+                    msg.chat.id,
+                    `${questionNumberText[user.language]} ${
+                        userProgress + 1
+                    }/${maxUserQuestions} \n${tempQuest.text}`,
+                    {
+                        reply_markup: {
+                            inline_keyboard: convertToArrays(
+                                tempQuest.options,
+                                userProgress
+                            ),
+                        },
+                    }
+                );
                 break;
             case "answer":
                 console.log(action);
@@ -294,14 +280,14 @@ bot.on("callback_query", async function onCallbackQuery(callbackQuery) {
                         )
                     );
                 } else {
-                    tempQuest = questions.en[userProgress];
+                    tempQuest = questions[`${user.language}`][userProgress];
                     user.answers.set(userProgress, {
                         id: tempQuest.id,
                     });
                     bot.editMessageText(
-                        `Question ${userProgress + 1}/${maxUserQuestions} \n${
-                            tempQuest.text
-                        }`,
+                        `${questionNumberText[user.language]} ${
+                            userProgress + 1
+                        }/${maxUserQuestions} \n${tempQuest.text}`,
                         {
                             chat_id: msg.chat.id,
                             message_id: msg.message_id,
