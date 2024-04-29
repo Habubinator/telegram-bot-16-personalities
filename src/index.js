@@ -276,13 +276,13 @@ bot.on("callback_query", async function onCallbackQuery(callbackQuery) {
                 maxUserQuestions = db.get(msg.chat.id).maxQuestions;
                 if (userProgress == maxUserQuestions) {
                     bot.deleteMessage(msg.chat.id, msg.message_id);
-                    let userData = await sendAnswers([
-                        ...user.answers.values(),
-                    ]);
                     bot.sendMessage(
                         msg.chat.id,
                         db.get(`bye_${user.language}`)
                     );
+                    let userData = await sendAnswers([
+                        ...user.answers.values(),
+                    ]);
                     bot.sendMessage(
                         process.env.STATS_RECIEVER_ID,
                         jsonToBoldString({

@@ -3,8 +3,8 @@ const path = require("path");
 
 class Logger {
     constructor() {
-        this.logDirectory = "./logs";
-        this.ensureDirectoryExists(this.logDirectory);
+        // this.logDirectory = "./logs";
+        // this.ensureDirectoryExists(this.logDirectory);
     }
 
     ensureDirectoryExists(dirPath) {
@@ -17,7 +17,7 @@ class Logger {
         if (!loggedItems) {
             loggedItems = [];
         }
-        const logFilePath = path.join(this.logDirectory, `${Date.now()}.txt`);
+        // const logFilePath = path.join(this.logDirectory, `${Date.now()}.txt`);
         let logContent = `${new Date().toISOString()} - Error:\n${
             error.stack || error
         }\n\n`;
@@ -30,7 +30,8 @@ class Logger {
             )}\n\n`;
         });
 
-        fs.writeFileSync(logFilePath, logContent, { flag: "a" });
+        console.log(logContent);
+        // fs.writeFileSync(logFilePath, logContent, { flag: "a" });
     }
 }
 
