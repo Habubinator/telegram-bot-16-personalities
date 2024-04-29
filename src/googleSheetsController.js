@@ -9,16 +9,15 @@ const serviceAccountAuth = new JWT({
     scopes: ["https://www.googleapis.com/auth/spreadsheets"],
 });
 
-const doc = new GoogleSpreadsheet(
-    "1NLxzekPP-dxExWPNRqYEecRIhTPxtvVuz8jA-SVhItU",
-    serviceAccountAuth
-);
-
 const logger = require("./logger");
 
 class gSheetsController {
     async getTableData(personalityType) {
         try {
+            const doc = new GoogleSpreadsheet(
+                "1NLxzekPP-dxExWPNRqYEecRIhTPxtvVuz8jA-SVhItU",
+                serviceAccountAuth
+            );
             await doc.loadInfo();
             const sheet = doc.sheetsByIndex[0];
             const rows = await sheet.getRows();

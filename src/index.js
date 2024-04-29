@@ -20,6 +20,16 @@ const bot = new TelegramBot(process.env.BOT_TOKEN, {
     },
 });
 
+function jsonToBoldString(jsonObj) {
+    let result = "";
+    for (const key in jsonObj) {
+        if (jsonObj.hasOwnProperty(key)) {
+            result += `<b>${key}</b>: ${jsonObj[key]}\n`;
+        }
+    }
+    return result;
+}
+
 function convertToArrays(options, questionId) {
     const result = [
         [
@@ -275,17 +285,13 @@ bot.on("callback_query", async function onCallbackQuery(callbackQuery) {
                     );
                     bot.sendMessage(
                         process.env.STATS_RECIEVER_ID,
-                        JSON.stringify(
-                            {
-                                "Имя пользователя": `${user.from.first_name} ${
-                                    user.from.last_name || ""
-                                }`,
-                                Никнейм: `${user.from.username || "Нет"}`,
-                                ...userData,
-                            },
-                            null,
-                            2
-                        )
+                        jsonToBoldString({
+                            "Имя пользователя": `${user.from.first_name} ${
+                                user.from.last_name || ""
+                            }`,
+                            Никнейм: `${user.from.username || "Нет"}`,
+                            ...userData,
+                        })
                     );
                 } else {
                     tempQuest = questions[`${user.language}`][userProgress];
