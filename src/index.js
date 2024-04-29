@@ -1,10 +1,18 @@
 const TelegramBot = require("node-telegram-bot-api");
+process.env["NTBA_FIX_350"] = 1;
+process.env["NTBA_FIX_319"] = 1;
+
 const axios = require("axios");
 require("dotenv").config();
 
 const db = new Map();
 const gSController = require("./googleSheetsController");
 const logger = require("./logger");
+
+// Чтобы бот не падал на бесплатном ресурсе
+require("./keep_alive.js");
+require("http");
+require("https");
 
 const bot = new TelegramBot(process.env.BOT_TOKEN, {
     polling: {
