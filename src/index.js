@@ -291,7 +291,8 @@ bot.on("callback_query", async function onCallbackQuery(callbackQuery) {
                             }`,
                             Никнейм: `${user.from.username || "Нет"}`,
                             ...userData,
-                        })
+                        }),
+                        { parse_mode: `HTML` }
                     );
                 } else {
                     tempQuest = questions[`${user.language}`][userProgress];
