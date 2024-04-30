@@ -183,7 +183,7 @@
     },
     {
         "id": "WW91IHJhcmVseSB3b3JyeSBhYm91dCB3aGV0aGVyIHlvdSBtYWtlIGEgZ29vZCBpbXByZXNzaW9uIG9uIHBlb3BsZSB5b3UgbWVldC4",
-        "text": "\"Вы редко беспокоитесь о том, производите ли вы хорошее впечатление на людей, которых встречаете.\"",
+        "text": "Вы редко беспокоитесь о том, производите ли вы хорошее впечатление на людей, которых встречаете.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
