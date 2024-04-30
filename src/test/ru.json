@@ -1,7 +1,7 @@
 [
     {
         "id": "WW91IHJlZ3VsYXJseSBtYWtlIG5ldyBmcmllbmRzLg",
-        "text": "Вы регулярно заводите новых друзей",
+        "text": "Вы регулярно заводите друзей.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -14,7 +14,7 @@
     },
     {
         "id": "Q29tcGxleCBhbmQgbm92ZWwgaWRlYXMgZXhjaXRlIHlvdSBtb3JlIHRoYW4gc2ltcGxlIGFuZCBzdHJhaWdodGZvcndhcmQgb25lcy4",
-        "text": "Вы проводите много свободного времени за изучением разных случайных тем, которые вас интересуют",
+        "text": "Сложные и новые идеи волнуют вас больше, чем простые и понятные.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -27,7 +27,7 @@
     },
     {
         "id": "WW91IHVzdWFsbHkgZmVlbCBtb3JlIHBlcnN1YWRlZCBieSB3aGF0IHJlc29uYXRlcyBlbW90aW9uYWxseSB3aXRoIHlvdSB0aGFuIGJ5IGZhY3R1YWwgYXJndW1lbnRzLg",
-        "text": "Если вы видите, как кто-то плачет, вы легко можете почувствовать, что вам тоже хочется плакать",
+        "text": "Обычно вас больше убеждает то, что находит у вас эмоциональный отклик, чем фактические аргументы.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -40,7 +40,7 @@
     },
     {
         "id": "WW91ciBsaXZpbmcgYW5kIHdvcmtpbmcgc3BhY2VzIGFyZSBjbGVhbiBhbmQgb3JnYW5pemVkLg",
-        "text": "Вы часто составляете запасной план для запасного плана",
+        "text": "Ваши жилые и рабочие помещения чистые и организованные.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -53,7 +53,7 @@
     },
     {
         "id": "WW91IHVzdWFsbHkgc3RheSBjYWxtLCBldmVuIHVuZGVyIGEgbG90IG9mIHByZXNzdXJlLg",
-        "text": "Обычно вы остаетесь спокойными, даже при сильном стрессе",
+        "text": "Обычно вы спокойны, даже под напряжением.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -66,7 +66,7 @@
     },
     {
         "id": "WW91IGZpbmQgdGhlIGlkZWEgb2YgbmV0d29ya2luZyBvciBwcm9tb3RpbmcgeW91cnNlbGYgdG8gc3RyYW5nZXJzIHZlcnkgZGF1bnRpbmcu",
-        "text": "На светских мероприятиях вы редко пытаетесь представиться новым людям и в основном разговариваете с теми, кого уже знаете",
+        "text": "Вы думаете что идея налаживания связей или продвижения себя незнакомцам очень пугающей.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -79,7 +79,7 @@
     },
     {
         "id": "WW91IHByaW9yaXRpemUgYW5kIHBsYW4gdGFza3MgZWZmZWN0aXZlbHksIG9mdGVuIGNvbXBsZXRpbmcgdGhlbSB3ZWxsIGJlZm9yZSB0aGUgZGVhZGxpbmUu",
-        "text": "Вы предпочитаете полностью закончить один проект перед тем, как начать другой.",
+        "text": "Вы эффективно расставляете приоритеты и планируете задачи, часто выполняя их задолго до установленного срока.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -92,7 +92,7 @@
     },
     {
         "id": "UGVvcGxl4oCZcyBzdG9yaWVzIGFuZCBlbW90aW9ucyBzcGVhayBsb3VkZXIgdG8geW91IHRoYW4gbnVtYmVycyBvciBkYXRhLg",
-        "text": "Вы очень сентиментальны.",
+        "text": "Истории и эмоции людей вам важнее чем числа и данные.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -105,7 +105,7 @@
     },
     {
         "id": "WW91IGxpa2UgdG8gdXNlIG9yZ2FuaXppbmcgdG9vbHMgbGlrZSBzY2hlZHVsZXMgYW5kIGxpc3RzLg",
-        "text": "Вам нравится использовать организационные инструменты, такие как расписания и списки.",
+        "text": "Вам нравится использовать инструменты организации, такие как расписания и списки.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -118,7 +118,7 @@
     },
     {
         "id": "RXZlbiBhIHNtYWxsIG1pc3Rha2UgY2FuIGNhdXNlIHlvdSB0byBkb3VidCB5b3VyIG92ZXJhbGwgYWJpbGl0aWVzIGFuZCBrbm93bGVkZ2Uu",
-        "text": "Даже небольшая ошибка может заставить вас сомневаться в своих способностях и знаниях.",
+        "text": "Даже небольшая ошибка может заставить вас усомниться в своих общих способностях и знаниях.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -131,7 +131,7 @@
     },
     {
         "id": "WW91IGZlZWwgY29tZm9ydGFibGUganVzdCB3YWxraW5nIHVwIHRvIHNvbWVvbmUgeW91IGZpbmQgaW50ZXJlc3RpbmcgYW5kIHN0cmlraW5nIHVwIGEgY29udmVyc2F0aW9uLg",
-        "text": "Вы чувствуете себя комфортно, просто подойдя к человеку, который вам интересен, и завязав с ним разговор.",
+        "text": "Вы чувствуете себя комфортно, просто подойдя к человеку, который вам интересен, и завязав разговор.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -144,7 +144,7 @@
     },
     {
         "id": "WW91IGFyZSBub3QgdG9vIGludGVyZXN0ZWQgaW4gZGlzY3Vzc2lvbnMgYWJvdXQgdmFyaW91cyBpbnRlcnByZXRhdGlvbnMgb2YgY3JlYXRpdmUgd29ya3Mu",
-        "text": "Вы не слишком заинтересованы в обсуждении различных интерпретаций и анализов творческих работ.",
+        "text": "Вас не слишком интересуют дискуссии о различных интерпретациях творческих произведений.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -157,7 +157,7 @@
     },
     {
         "id": "WW91IHByaW9yaXRpemUgZmFjdHMgb3ZlciBwZW9wbGXigJlzIGZlZWxpbmdzIHdoZW4gZGV0ZXJtaW5pbmcgYSBjb3Vyc2Ugb2YgYWN0aW9uLg",
-        "text": "Вы склонны больше полагаться на свой разум, чем на сердце.",
+        "text": "Вы отдаете приоритет фактам над чувствами людей, определяя курс действий.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -170,7 +170,7 @@
     },
     {
         "id": "WW91IG9mdGVuIGFsbG93IHRoZSBkYXkgdG8gdW5mb2xkIHdpdGhvdXQgYW55IHNjaGVkdWxlIGF0IGFsbC4",
-        "text": "Обычно вы предпочитаете делать то, что хочется в данный момент, а не следовать определенному распорядку дня.",
+        "text": "Вы часто позволяете своему дню проходить вообще без какого-либо расписания.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -196,7 +196,7 @@
     },
     {
         "id": "WW91IGVuam95IHBhcnRpY2lwYXRpbmcgaW4gdGVhbS1iYXNlZCBhY3Rpdml0aWVzLg",
-        "text": "Вам нравится участвовать в групповых мероприятиях.",
+        "text": "Вам нравится участвовать в командных мероприятиях.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -209,7 +209,7 @@
     },
     {
         "id": "WW91IGVuam95IGV4cGVyaW1lbnRpbmcgd2l0aCBuZXcgYW5kIHVudGVzdGVkIGFwcHJvYWNoZXMu",
-        "text": "Вам нравятся книги и фильмы с открытой концовкой, которую вы можете интерпретировать по собственному усмотрению.",
+        "text": "Вам нравится экспериментировать с новыми и непроверенными подходами.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -222,7 +222,7 @@
     },
     {
         "id": "WW91IHByaW9yaXRpemUgYmVpbmcgc2Vuc2l0aXZlIG92ZXIgYmVpbmcgY29tcGxldGVseSBob25lc3Qu",
-        "text": "Ваше счастье больше зависит от помощи другим достигать своих целей, чем от достижения своих собственных.",
+        "text": "Вы отдаете предпочтение деликатности, а не полной честности.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -235,7 +235,7 @@
     },
     {
         "id": "WW91IGFjdGl2ZWx5IHNlZWsgb3V0IG5ldyBleHBlcmllbmNlcyBhbmQga25vd2xlZGdlIGFyZWFzIHRvIGV4cGxvcmUu",
-        "text": "Вам интересны столько вещей, что трудно выбрать, что пробовать дальше.",
+        "text": "Вы активно ищете новый опыт и области знаний для изучения.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -248,7 +248,7 @@
     },
     {
         "id": "WW91IGFyZSBwcm9uZSB0byB3b3JyeWluZyB0aGF0IHRoaW5ncyB3aWxsIHRha2UgYSB0dXJuIGZvciB0aGUgd29yc2Uu",
-        "text": "Вы склонны беспокоиться, что ситуация станет хуже.",
+        "text": "Вы склонны беспокоиться, что дела пойдут к худшему.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -261,7 +261,7 @@
     },
     {
         "id": "WW91IGVuam95IHNvbGl0YXJ5IGhvYmJpZXMgb3IgYWN0aXZpdGllcyBtb3JlIHRoYW4gZ3JvdXAgb25lcy4",
-        "text": "Вы избегаете лидерских позиций в группах.",
+        "text": "Вам больше нравятся уединенные хобби или занятия, чем групповые.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -274,7 +274,7 @@
     },
     {
         "id": "WW91IGNhbm5vdCBpbWFnaW5lIHlvdXJzZWxmIHdyaXRpbmcgZmljdGlvbmFsIHN0b3JpZXMgZm9yIGEgbGl2aW5nLg",
-        "text": "Вы – точно не артистичный тип личности.",
+        "text": "Вы не можете себе представить, что зарабатываете на жизнь написанием вымышленных историй.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -287,7 +287,7 @@
     },
     {
         "id": "WW91IGZhdm9yIGVmZmljaWVuY3kgaW4gZGVjaXNpb25zLCBldmVuIGlmIGl0IG1lYW5zIGRpc3JlZ2FyZGluZyBzb21lIGVtb3Rpb25hbCBhc3BlY3RzLg",
-        "text": "Вы думаете, что мир был бы лучшим местом, если бы люди больше полагались на рациональность и меньше на чувства.",
+        "text": "Вы предпочитаете эффективность в принятии решений, даже если это означает игнорирование некоторых эмоциональных аспектов.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -300,7 +300,7 @@
     },
     {
         "id": "WW91IHByZWZlciB0byBkbyB5b3VyIGNob3JlcyBiZWZvcmUgYWxsb3dpbmcgeW91cnNlbGYgdG8gcmVsYXgu",
-        "text": "Вы предпочитаете сначала сделать домашние дела, а потом уже отдыхать.",
+        "text": "Вы предпочитаете сделать свои рутинные дела, прежде чем позволить себе расслабиться.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -313,7 +313,7 @@
     },
     {
         "id": "SW4gZGlzYWdyZWVtZW50cywgeW91IHByaW9yaXRpemUgcHJvdmluZyB5b3VyIHBvaW50IG92ZXIgcHJlc2VydmluZyB0aGUgZmVlbGluZ3Mgb2Ygb3RoZXJzLg",
-        "text": "Вам нравится смотреть, как люди спорят.",
+        "text": "В случае разногласий вы отдаете предпочтение доказательству своей точки зрения, а не сохранению чувств других.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -326,7 +326,7 @@
     },
     {
         "id": "WW91IHVzdWFsbHkgd2FpdCBmb3Igb3RoZXJzIHRvIGludHJvZHVjZSB0aGVtc2VsdmVzIGZpcnN0IGF0IHNvY2lhbCBnYXRoZXJpbmdzLg",
-        "text": "Вы стараетесь избегать привлечения к себе внимания.",
+        "text": "Обычно вы ждете, пока другие представятся первыми на общественных мероприятиях.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -339,7 +339,7 @@
     },
     {
         "id": "WW91ciBtb29kIGNhbiBjaGFuZ2UgdmVyeSBxdWlja2x5Lg",
-        "text": "Ваше настроение способно очень быстро меняться.",
+        "text": "Ваше настроение может измениться очень быстро.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -352,7 +352,7 @@
     },
     {
         "id": "WW91IGFyZSBub3QgZWFzaWx5IHN3YXllZCBieSBlbW90aW9uYWwgYXJndW1lbnRzLg",
-        "text": "Вы теряете терпение с людьми, которые не так эффективны, как вы.",
+        "text": "На вас нелегко повлиять эмоциональными аргументами.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -365,7 +365,7 @@
     },
     {
         "id": "WW91IG9mdGVuIGVuZCB1cCBkb2luZyB0aGluZ3MgYXQgdGhlIGxhc3QgcG9zc2libGUgbW9tZW50Lg",
-        "text": "Вы часто делаете дела в самый последний момент.",
+        "text": "Вы часто делаете что-то в самый последний момент.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -378,7 +378,7 @@
     },
     {
         "id": "WW91IGVuam95IGRlYmF0aW5nIGV0aGljYWwgZGlsZW1tYXMu",
-        "text": "Вас всегда интересовал вопрос о том, что происходит после смерти, если вообще что-то происходит.",
+        "text": "Вам нравится обсуждать этические дилеммы.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -391,7 +391,7 @@
     },
     {
         "id": "WW91IHVzdWFsbHkgcHJlZmVyIHRvIGJlIGFyb3VuZCBvdGhlcnMgcmF0aGVyIHRoYW4gb24geW91ciBvd24u",
-        "text": "Обычно вы предпочитаете быть в обществе других людей, а не в одиночестве.",
+        "text": "Обычно вы предпочитаете находиться рядом с другими, а не в одиночестве.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -404,7 +404,7 @@
     },
     {
         "id": "WW91IGJlY29tZSBib3JlZCBvciBsb3NlIGludGVyZXN0IHdoZW4gdGhlIGRpc2N1c3Npb24gZ2V0cyBoaWdobHkgdGhlb3JldGljYWwu",
-        "text": "Вы устаете или теряете интерес, если разговор становится сугубо теоретическим.",
+        "text": "Вам становится скучно или вы теряете интерес, когда обсуждение становится сугубо теоретическим.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -417,7 +417,7 @@
     },
     {
         "id": "V2hlbiBmYWN0cyBhbmQgZmVlbGluZ3MgY29uZmxpY3QsIHlvdSB1c3VhbGx5IGZpbmQgeW91cnNlbGYgZm9sbG93aW5nIHlvdXIgaGVhcnQu",
-        "text": "Вы способны легко сопереживать человеку, чей жизненный опыт сильно отличается от вашего.",
+        "text": "Когда факты и чувства противоречат друг другу, вы обычно следуете своему сердцу.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -430,7 +430,7 @@
     },
     {
         "id": "WW91IGZpbmQgaXQgY2hhbGxlbmdpbmcgdG8gbWFpbnRhaW4gYSBjb25zaXN0ZW50IHdvcmsgb3Igc3R1ZHkgc2NoZWR1bGUu",
-        "text": "Обычно вы откладываете принятие решений настолько долго, насколько это возможно.",
+        "text": "Вам сложно поддерживать постоянный график работы или учебы.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -443,7 +443,7 @@
     },
     {
         "id": "WW91IHJhcmVseSBzZWNvbmQtZ3Vlc3MgdGhlIGNob2ljZXMgdGhhdCB5b3UgaGF2ZSBtYWRlLg",
-        "text": "Вы редко пересматриваете решения, которые уже приняли.",
+        "text": "Вы редко сомневаетесь в выборе, который сделали.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -456,7 +456,7 @@
     },
     {
         "id": "WW91ciBmcmllbmRzIHdvdWxkIGRlc2NyaWJlIHlvdSBhcyBsaXZlbHkgYW5kIG91dGdvaW5nLg",
-        "text": "После длинной и утомительной недели оживленное светское мероприятие – это именно то, что вам нужно.",
+        "text": "Ваши друзья описали бы вас как веселого и общительного человека.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -469,7 +469,7 @@
     },
     {
         "id": "WW91IGFyZSBkcmF3biB0byB2YXJpb3VzIGZvcm1zIG9mIGNyZWF0aXZlIGV4cHJlc3Npb24sIHN1Y2ggYXMgd3JpdGluZy4",
-        "text": "Вам нравится ходить в художественные музеи.",
+        "text": "Вас привлекают различные формы творческого самовыражения, например, письмо.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -482,7 +482,7 @@
     },
     {
         "id": "WW91IHVzdWFsbHkgYmFzZSB5b3VyIGNob2ljZXMgb24gb2JqZWN0aXZlIGZhY3RzIHJhdGhlciB0aGFuIGVtb3Rpb25hbCBpbXByZXNzaW9ucy4",
-        "text": "Вам часто бывает трудно понять чувства других людей.",
+        "text": "Обычно вы основываете свой выбор на объективных фактах, а не на эмоциональных впечатлениях.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -521,7 +521,7 @@
     },
     {
         "id": "WW91IGF2b2lkIG1ha2luZyBwaG9uZSBjYWxscy4",
-        "text": "Вы стараетесь избегать совершать телефонные звонки.",
+        "text": "Вы избегаете телефонных звонков.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -534,7 +534,7 @@
     },
     {
         "id": "WW91IGVuam95IGV4cGxvcmluZyB1bmZhbWlsaWFyIGlkZWFzIGFuZCB2aWV3cG9pbnRzLg",
-        "text": "Вы часто проводите много времени, стараясь понять точки зрения, которые сильно отличаются от ваших.",
+        "text": "Вам нравится исследовать незнакомые идеи и точки зрения.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -547,7 +547,7 @@
     },
     {
         "id": "WW91IGNhbiBlYXNpbHkgY29ubmVjdCB3aXRoIHBlb3BsZSB5b3UgaGF2ZSBqdXN0IG1ldC4",
-        "text": "В своем социальном кругу вы часто являетесь тем человеком, который связывается с друзьями и назначает встречи или мероприятия.",
+        "text": "Вы можете легко общаться с людьми, которых только что встретили.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -560,7 +560,7 @@
     },
     {
         "id": "SWYgeW91ciBwbGFucyBhcmUgaW50ZXJydXB0ZWQsIHlvdXIgdG9wIHByaW9yaXR5IGlzIHRvIGdldCBiYWNrIG9uIHRyYWNrIGFzIHNvb24gYXMgcG9zc2libGUu",
-        "text": "Если ваши планы нарушены, вы стараетесь как можно скорее вернуться в привычное русло.",
+        "text": "Если ваши планы нарушаются, ваш главный приоритет — как можно скорее вернуться в нужное русло.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -573,7 +573,7 @@
     },
     {
         "id": "WW91IGFyZSBzdGlsbCBib3RoZXJlZCBieSBtaXN0YWtlcyB0aGF0IHlvdSBtYWRlIGEgbG9uZyB0aW1lIGFnby4",
-        "text": "Вас все еще беспокоят ошибки, которые вы совершили много лет назад.",
+        "text": "Вас все еще беспокоят ошибки, которые вы совершили давным-давно.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -586,7 +586,7 @@
     },
     {
         "id": "WW91IGFyZSBub3QgdG9vIGludGVyZXN0ZWQgaW4gZGlzY3Vzc2luZyB0aGVvcmllcyBvbiB3aGF0IHRoZSB3b3JsZCBjb3VsZCBsb29rIGxpa2UgaW4gdGhlIGZ1dHVyZS4",
-        "text": "Вы редко задумываетесь о причинах существования человечества и смысле жизни.",
+        "text": "Вы не слишком заинтересованы в обсуждении теорий о том, как может выглядеть мир в будущем.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -612,7 +612,7 @@
     },
     {
         "id": "V2hlbiBtYWtpbmcgZGVjaXNpb25zLCB5b3UgZm9jdXMgbW9yZSBvbiBob3cgdGhlIGFmZmVjdGVkIHBlb3BsZSBtaWdodCBmZWVsIHRoYW4gb24gd2hhdCBpcyBtb3N0IGxvZ2ljYWwgb3IgZWZmaWNpZW50Lg",
-        "text": "Вы очень стараетесь не выставить людей в плохом свете, даже если это полностью их вина.",
+        "text": "Принимая решения, вы больше сосредотачиваетесь на том, как могут чувствовать себя задетые люди, чем на том, что наиболее логично или эффективно.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -625,7 +625,7 @@
     },
     {
         "id": "WW91ciBwZXJzb25hbCB3b3JrIHN0eWxlIGlzIGNsb3NlciB0byBzcG9udGFuZW91cyBidXJzdHMgb2YgZW5lcmd5IHRoYW4gb3JnYW5pemVkIGFuZCBjb25zaXN0ZW50IGVmZm9ydHMu",
-        "text": "Ваш личный стиль работы больше похож на спонтанные всплески энергии, чем на организованные и последовательные усилия.",
+        "text": "Ваш личный стиль работы ближе к спонтанным всплескам энергии, чем к организованным и последовательным усилиям.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -638,7 +638,7 @@
     },
     {
         "id": "V2hlbiBzb21lb25lIHRoaW5rcyBoaWdobHkgb2YgeW91LCB5b3Ugd29uZGVyIGhvdyBsb25nIGl0IHdpbGwgdGFrZSB0aGVtIHRvIGZlZWwgZGlzYXBwb2ludGVkIGluIHlvdS4",
-        "text": "Когда кто-то о вас высокого мнения, вы прикидываете, сколько времени у него займет, чтобы в вас разочароваться.",
+        "text": "Когда кто-то высокого мнения о вас, вы задаетесь вопросом, сколько времени ему понадобится, чтобы разочароваться в вас.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -651,7 +651,7 @@
     },
     {
         "id": "WW91IHdvdWxkIGxvdmUgYSBqb2IgdGhhdCByZXF1aXJlcyB5b3UgdG8gd29yayBhbG9uZSBtb3N0IG9mIHRoZSB0aW1lLg",
-        "text": "Вам бы понравилась работа, где большую часть времени нужно работать в одиночестве.",
+        "text": "Вам бы понравилась работа, которая требует от вас большую часть времени работать в одиночку.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -664,7 +664,7 @@
     },
     {
         "id": "WW91IGJlbGlldmUgdGhhdCBwb25kZXJpbmcgYWJzdHJhY3QgcGhpbG9zb3BoaWNhbCBxdWVzdGlvbnMgaXMgYSB3YXN0ZSBvZiB0aW1lLg",
-        "text": "Вы считаете, что задаваться абстрактными философскими вопросами – это пустая трата времени.",
+        "text": "Вы считаете, что размышления над абстрактными философскими вопросами — пустая трата времени.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -677,7 +677,7 @@
     },
     {
         "id": "WW91IGZlZWwgbW9yZSBkcmF3biB0byBidXN5LCBidXN0bGluZyBhdG1vc3BoZXJlcyB0aGFuIHRvIHF1aWV0LCBpbnRpbWF0ZSBwbGFjZXMu",
-        "text": "Вас больше тянет в места с оживленной и шумной атмосферой, чем в тихие, уединенные места.",
+        "text": "Вас больше тянет в оживленную, суетливую атмосферу, чем в тихие, интимные места.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -690,7 +690,7 @@
     },
     {
         "id": "SWYgYSBkZWNpc2lvbiBmZWVscyByaWdodCB0byB5b3UsIHlvdSBvZnRlbiBhY3Qgb24gaXQgd2l0aG91dCBuZWVkaW5nIGZ1cnRoZXIgcHJvb2Yu",
-        "text": "Вы с первого взгляда понимаете, что чувствует другой человек.",
+        "text": "Если решение кажется вам правильным, вы часто действуете в соответствии с ним, не нуждаясь в дополнительных доказательствах.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -703,7 +703,7 @@
     },
     {
         "id": "WW91IG9mdGVuIGZlZWwgb3ZlcndoZWxtZWQu",
-        "text": "Вы часто чувствуете себя подавленным (-ой).",
+        "text": "Вы часто чувствуете себя перегруженным.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -716,7 +716,7 @@
     },
     {
         "id": "WW91IGNvbXBsZXRlIHRoaW5ncyBtZXRob2RpY2FsbHkgd2l0aG91dCBza2lwcGluZyBvdmVyIGFueSBzdGVwcy4",
-        "text": "Вы выполняете дела последовательно, не пропуская ни одного шага.",
+        "text": "Вы выполняете задачи методично, не пропуская ни одного шага.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -729,7 +729,7 @@
     },
     {
         "id": "WW91IHByZWZlciB0YXNrcyB0aGF0IHJlcXVpcmUgeW91IHRvIGNvbWUgdXAgd2l0aCBjcmVhdGl2ZSBzb2x1dGlvbnMgcmF0aGVyIHRoYW4gZm9sbG93IGNvbmNyZXRlIHN0ZXBzLg",
-        "text": "Вас интригуют темы, которые считаются спорными.",
+        "text": "Вы предпочитаете задачи, которые требуют от вас творческих решений, а не выполнения конкретных шагов.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -742,7 +742,7 @@
     },
     {
         "id": "WW91IGFyZSBtb3JlIGxpa2VseSB0byByZWx5IG9uIGVtb3Rpb25hbCBpbnR1aXRpb24gdGhhbiBsb2dpY2FsIHJlYXNvbmluZyB3aGVuIG1ha2luZyBhIGNob2ljZS4",
-        "text": "Вы бы отказались от хорошей возможности, если бы считали, что кто-то другой нуждается в ней больше.",
+        "text": "При выборе вы скорее полагаетесь на эмоциональную интуицию, чем на логические рассуждения.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -755,7 +755,7 @@
     },
     {
         "id": "WW91IHN0cnVnZ2xlIHdpdGggZGVhZGxpbmVzLg",
-        "text": "Вам трудно укладываться в сроки.",
+        "text": "У вас проблемы со сроками.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },
@@ -768,7 +768,7 @@
     },
     {
         "id": "WW91IGZlZWwgY29uZmlkZW50IHRoYXQgdGhpbmdzIHdpbGwgd29yayBvdXQgZm9yIHlvdS4",
-        "text": "Вы уверены в том, что у вас все получится.",
+        "text": "Вы уверены, что у вас все получится.",
         "options": [
             { "text": "Нет", "value": -3 },
             { "text": "В основном, нет", "value": -2 },

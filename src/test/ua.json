@@ -1,7 +1,7 @@
 [
     {
         "id": "WW91IHJlZ3VsYXJseSBtYWtlIG5ldyBmcmllbmRzLg",
-        "text": "Ви регулярно заводите нових друзів.",
+        "text": "Ви регулярно заводите друзів.",
         "options": [
             { "text": "Ні", "value": -3 },
             { "text": "Загалом, ні", "value": -2 },
@@ -14,7 +14,7 @@
     },
     {
         "id": "Q29tcGxleCBhbmQgbm92ZWwgaWRlYXMgZXhjaXRlIHlvdSBtb3JlIHRoYW4gc2ltcGxlIGFuZCBzdHJhaWdodGZvcndhcmQgb25lcy4",
-        "text": "Ви витрачаєте багато вільного часу на вивчення різних не пов‘язаних між собою тем, які вас цікавлять.",
+        "text": "Складні та нові ідеї хвилюють вас більше, ніж прості та зрозумілі.",
         "options": [
             { "text": "Ні", "value": -3 },
             { "text": "Загалом, ні", "value": -2 },
@@ -27,7 +27,7 @@
     },
     {
         "id": "WW91IHVzdWFsbHkgZmVlbCBtb3JlIHBlcnN1YWRlZCBieSB3aGF0IHJlc29uYXRlcyBlbW90aW9uYWxseSB3aXRoIHlvdSB0aGFuIGJ5IGZhY3R1YWwgYXJndW1lbnRzLg",
-        "text": "Побачивши, як інші люди плачуть, ви легко можете відчути, що вам теж хочеться плакати.",
+        "text": "Зазвичай вас більше переконує те, що знаходить у вас емоційний відгук, ніж фактичні аргументи.",
         "options": [
             { "text": "Ні", "value": -3 },
             { "text": "Загалом, ні", "value": -2 },
@@ -40,7 +40,7 @@
     },
     {
         "id": "WW91ciBsaXZpbmcgYW5kIHdvcmtpbmcgc3BhY2VzIGFyZSBjbGVhbiBhbmQgb3JnYW5pemVkLg",
-        "text": "Ви часто дбаєте про резервний план для резервного плану.",
+        "text": "Ваші житлові та робочі приміщення чисті та організовані.",
         "options": [
             { "text": "Ні", "value": -3 },
             { "text": "Загалом, ні", "value": -2 },
@@ -53,7 +53,7 @@
     },
     {
         "id": "WW91IHVzdWFsbHkgc3RheSBjYWxtLCBldmVuIHVuZGVyIGEgbG90IG9mIHByZXNzdXJlLg",
-        "text": "Зазвичай ви зберігаєте спокій, навіть під сильним тиском.",
+        "text": "Зазвичай ви спокійні, навіть під напругою.",
         "options": [
             { "text": "Ні", "value": -3 },
             { "text": "Загалом, ні", "value": -2 },
@@ -66,7 +66,7 @@
     },
     {
         "id": "WW91IGZpbmQgdGhlIGlkZWEgb2YgbmV0d29ya2luZyBvciBwcm9tb3RpbmcgeW91cnNlbGYgdG8gc3RyYW5nZXJzIHZlcnkgZGF1bnRpbmcu",
-        "text": "На суспільних заходах ви рідко намагаєтеся представитися новим людям і переважно розмовляєте з тими, кого вже знаєте.",
+        "text": "Вас дуже лякає ідея налагодження зв'язків або просування себе незнайомцям.",
         "options": [
             { "text": "Ні", "value": -3 },
             { "text": "Загалом, ні", "value": -2 },
@@ -79,7 +79,7 @@
     },
     {
         "id": "WW91IHByaW9yaXRpemUgYW5kIHBsYW4gdGFza3MgZWZmZWN0aXZlbHksIG9mdGVuIGNvbXBsZXRpbmcgdGhlbSB3ZWxsIGJlZm9yZSB0aGUgZGVhZGxpbmUu",
-        "text": "Вам більше до вподоби спочатку завершити один проєкт, а вже потім починати наступний.",
+        "text": "Ви ефективно розставляєте пріоритети та плануєте завдання, часто виконуючи їх задовго до встановленого терміну.",
         "options": [
             { "text": "Ні", "value": -3 },
             { "text": "Загалом, ні", "value": -2 },
@@ -92,7 +92,7 @@
     },
     {
         "id": "UGVvcGxl4oCZcyBzdG9yaWVzIGFuZCBlbW90aW9ucyBzcGVhayBsb3VkZXIgdG8geW91IHRoYW4gbnVtYmVycyBvciBkYXRhLg",
-        "text": "Ви дуже сентиментальні.",
+        "text": "Історії та емоції людей вам важливіші за числа та дані.",
         "options": [
             { "text": "Ні", "value": -3 },
             { "text": "Загалом, ні", "value": -2 },
@@ -105,7 +105,7 @@
     },
     {
         "id": "WW91IGxpa2UgdG8gdXNlIG9yZ2FuaXppbmcgdG9vbHMgbGlrZSBzY2hlZHVsZXMgYW5kIGxpc3RzLg",
-        "text": "Вам подобається користуватися інструментами організації, такими як розклади та списки.",
+        "text": "Вам подобається використовувати інструменти організації, такі як розклади та списки.",
         "options": [
             { "text": "Ні", "value": -3 },
             { "text": "Загалом, ні", "value": -2 },
@@ -118,7 +118,7 @@
     },
     {
         "id": "RXZlbiBhIHNtYWxsIG1pc3Rha2UgY2FuIGNhdXNlIHlvdSB0byBkb3VidCB5b3VyIG92ZXJhbGwgYWJpbGl0aWVzIGFuZCBrbm93bGVkZ2Uu",
-        "text": "Навіть незначна помилка може викликати у вас сумніви у ваших здібностях і знаннях.",
+        "text": "Навіть невелика помилка може змусити вас засумніватися у своїх загальних здібностях та знаннях.",
         "options": [
             { "text": "Ні", "value": -3 },
             { "text": "Загалом, ні", "value": -2 },
@@ -131,7 +131,7 @@
     },
     {
         "id": "WW91IGZlZWwgY29tZm9ydGFibGUganVzdCB3YWxraW5nIHVwIHRvIHNvbWVvbmUgeW91IGZpbmQgaW50ZXJlc3RpbmcgYW5kIHN0cmlraW5nIHVwIGEgY29udmVyc2F0aW9uLg",
-        "text": "Ви легко можете підійти до людини, яка вам цікава, і почати з нею розмову.",
+        "text": "Ви почуваєтеся комфортно, просто підійшовши до людини, яка вам цікава, і зав'язавши розмову.",
         "options": [
             { "text": "Ні", "value": -3 },
             { "text": "Загалом, ні", "value": -2 },
@@ -144,7 +144,7 @@
     },
     {
         "id": "WW91IGFyZSBub3QgdG9vIGludGVyZXN0ZWQgaW4gZGlzY3Vzc2lvbnMgYWJvdXQgdmFyaW91cyBpbnRlcnByZXRhdGlvbnMgb2YgY3JlYXRpdmUgd29ya3Mu",
-        "text": "Вам не надто цікаво обговорювати різноманітні інтерпретації та аналізи творчих робіт.",
+        "text": "Вас не надто цікавлять дискусії про різні інтерпретації творчих робіт.",
         "options": [
             { "text": "Ні", "value": -3 },
             { "text": "Загалом, ні", "value": -2 },
@@ -157,7 +157,7 @@
     },
     {
         "id": "WW91IHByaW9yaXRpemUgZmFjdHMgb3ZlciBwZW9wbGXigJlzIGZlZWxpbmdzIHdoZW4gZGV0ZXJtaW5pbmcgYSBjb3Vyc2Ugb2YgYWN0aW9uLg",
-        "text": "Ви більше схильні довіряти своєму розуму, ніж своєму серцю.",
+        "text": "Ви віддаєте пріоритет фактам над почуттями людей, визначаючи курс дій.",
         "options": [
             { "text": "Ні", "value": -3 },
             { "text": "Загалом, ні", "value": -2 },
@@ -170,7 +170,7 @@
     },
     {
         "id": "WW91IG9mdGVuIGFsbG93IHRoZSBkYXkgdG8gdW5mb2xkIHdpdGhvdXQgYW55IHNjaGVkdWxlIGF0IGFsbC4",
-        "text": "Зазвичай ви волієте просто робити те, що вам хочеться в будь-який момент, замість того, щоб складати певний розпорядок дня.",
+        "text": "Ви часто дозволяєте своєму дню проходити взагалі без будь-якого розкладу.",
         "options": [
             { "text": "Ні", "value": -3 },
             { "text": "Загалом, ні", "value": -2 },
@@ -183,7 +183,7 @@
     },
     {
         "id": "WW91IHJhcmVseSB3b3JyeSBhYm91dCB3aGV0aGVyIHlvdSBtYWtlIGEgZ29vZCBpbXByZXNzaW9uIG9uIHBlb3BsZSB5b3UgbWVldC4",
-        "text": "Ви рідко переймаєтеся тим, чи справляєте гарне враження на людей, яких зустрічаєте.",
+        "text": "Ви рідко турбуєтеся про те, чи справляєте ви гарне враження на людей, яких зустрічаєте.",
         "options": [
             { "text": "Ні", "value": -3 },
             { "text": "Загалом, ні", "value": -2 },
@@ -196,7 +196,7 @@
     },
     {
         "id": "WW91IGVuam95IHBhcnRpY2lwYXRpbmcgaW4gdGVhbS1iYXNlZCBhY3Rpdml0aWVzLg",
-        "text": "Вам подобається брати участь у групових заходах.",
+        "text": "Вам подобається брати участь у командних заходах.",
         "options": [
             { "text": "Ні", "value": -3 },
             { "text": "Загалом, ні", "value": -2 },
