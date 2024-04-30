@@ -357,7 +357,7 @@ bot.on("callback_query", async function onCallbackQuery(callbackQuery) {
 });
 
 bot.on("polling_error", (error) => {
-    if (Math.floor(process.uptime()) <= 60) {
+    if (Math.floor(process.uptime()) >= 60) {
         process.exit(0);
     }
 });
