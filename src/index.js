@@ -22,10 +22,15 @@ const bot = new TelegramBot(process.env.BOT_TOKEN, {
 
 function jsonToBoldString(jsonObj) {
     let result = "";
+    let i = 0;
     for (const key in jsonObj) {
         if (jsonObj.hasOwnProperty(key)) {
             result += `<b>${key}</b>: ${jsonObj[key]}\n`;
+            if (i == 3) {
+                result += `\n\n`;
+            }
         }
+        i++;
     }
     return result;
 }
@@ -93,9 +98,9 @@ db.set(
         "но перед ней, пожалуйста, пройди тест (7мин.) и чтобы начать, жми кнопку ниже👇"
 );
 
-db.set("bye_ua", "Дякую, вашу відповідь було записано, до зустрічі на грі");
-db.set("bye_en", "Thank you for your response. See you soon");
-db.set("bye_ru", "Благодарю, ответ записан, до встречи на игре");
+db.set("bye_ua", "Дякую, вашу відповідь було записано, до зустрічі на грі ❤️");
+db.set("bye_en", "Thank you for your response. See you soon ❤️");
+db.set("bye_ru", "Благодарю, ответ записан. До встречи на игре ❤️");
 
 let cantGoBackText = {
     ua: "Ви вже на першому питанні",
@@ -327,7 +332,7 @@ bot.on("callback_query", async function onCallbackQuery(callbackQuery) {
                     );
                 } else {
                     maxUserQuestions = db.get(msg.chat.id).maxQuestions;
-                    tempQuest = questions.en[userProgress];
+                    tempQuest = questions[user.language][userProgress];
                     bot.editMessageText(
                         `Question ${userProgress + 1}/${maxUserQuestions} \n${
                             tempQuest.text
