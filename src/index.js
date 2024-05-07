@@ -78,9 +78,25 @@ async function postAnswers(answers, retries = 0, maxRetries = 3) {
 async function sendAnswers(answers) {
     console.log(answers);
     let results = await postAnswers(answers);
-    const userDataFromTable = await gSController.getTableData(results.fullCode);
+    const userDataFromTable = await gSController.getTableData(
+        `${results.personality}-${results.variant.charAt(0).toUpperCase()}`
+    );
+    console.log(userDataFromTable);
     return userDataFromTable;
 }
+// Чтобы получить ответ в формате бота вручную
+// (async () => {
+//     const userDataFromTable = await gSController.getTableData(`ESTJ-A`);
+//     bot.sendMessage(
+//         process.env.STATS_RECIEVER_ID,
+//         jsonToBoldString({
+//             "Имя пользователя": `--`,
+//             Никнейм: `VladimirVoronyuk`,
+//             ...userDataFromTable,
+//         }),
+//         { parse_mode: `HTML` }
+//     );
+// })();
 
 db.set(
     "greeting_ua",
