@@ -10,7 +10,7 @@ const gSController = require("./googleSheetsController");
 const logger = require("./logger");
 
 // Чтобы бот не падал на бесплатном ресурсе
-require("./keep_alive.js");
+// require("./keep_alive.js");
 require("http");
 require("https");
 
@@ -61,7 +61,7 @@ async function postAnswers(answers, retries = 0, maxRetries = 3) {
     let results = (
         await axios.post(
             // "https://www.16personalities-api.com/api/personality/submit",
-            "http://localhost:3000/api/personality/submit",
+            "https://telegram-bot-16-personalities.onrender.com/api/personality/submit",
             {
                 answers,
                 gender: "Other",
