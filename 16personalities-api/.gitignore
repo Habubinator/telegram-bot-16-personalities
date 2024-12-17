@@ -1,0 +1,6 @@
+node_modules/
+dist/
+*.html
+!api-doc.html
+!index.html
+.env

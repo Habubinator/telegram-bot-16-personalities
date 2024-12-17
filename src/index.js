@@ -60,7 +60,8 @@ function convertToArrays(options, questionId) {
 async function postAnswers(answers, retries = 0, maxRetries = 3) {
     let results = (
         await axios.post(
-            "https://www.16personalities-api.com/api/personality/submit",
+            // "https://www.16personalities-api.com/api/personality/submit",
+            "http://localhost:3000/api/personality/submit",
             {
                 answers,
                 gender: "Other",
@@ -101,17 +102,17 @@ async function sendAnswers(answers) {
 db.set(
     "greeting_ua",
     "Вітаю, мене звуть Анатолій Манолій, я радий бачити твою зацікавленість до гри," +
-        " але перед нею будь ласка обери мову спілкування та пройди тест (7хв.) і щоб почати, тисни кнопку нижче 👇"
+    " але перед нею будь ласка обери мову спілкування та пройди тест (7хв.) і щоб почати, тисни кнопку нижче 👇"
 );
 db.set(
     "greeting_en",
     "Hello, my name is Anatoli Manolii, I'm glad to see your interest to the game," +
-        " but before we start, please take the test (7 min.) and click the button below 👇 to start."
+    " but before we start, please take the test (7 min.) and click the button below 👇 to start."
 );
 db.set(
     "greeting_ru",
     "Приветствую, меня зовут Анатолий Манолий, я рад видеть твою заинтересованность к игре, " +
-        "но перед ней, пожалуйста, пройди тест (7мин.) и чтобы начать, жми кнопку ниже👇"
+    "но перед ней, пожалуйста, пройди тест (7мин.) и чтобы начать, жми кнопку ниже👇"
 );
 
 db.set("bye_ua", "Дякую, вашу відповідь було записано, до зустрічі на грі ❤️");
@@ -273,8 +274,7 @@ bot.on("callback_query", async function onCallbackQuery(callbackQuery) {
                 });
                 bot.sendMessage(
                     msg.chat.id,
-                    `${questionNumberText[user.language]} ${
-                        userProgress + 1
+                    `${questionNumberText[user.language]} ${userProgress + 1
                     }/${maxUserQuestions} \n${tempQuest.text}`,
                     {
                         reply_markup: {
@@ -307,9 +307,8 @@ bot.on("callback_query", async function onCallbackQuery(callbackQuery) {
                     bot.sendMessage(
                         process.env.STATS_RECIEVER_ID,
                         jsonToBoldString({
-                            "Имя пользователя": `${user.from.first_name} ${
-                                user.from.last_name || ""
-                            }`,
+                            "Имя пользователя": `${user.from.first_name} ${user.from.last_name || ""
+                                }`,
                             Никнейм: `${user.from.username || "Нет"}`,
                             ...userData,
                         }),
@@ -321,8 +320,7 @@ bot.on("callback_query", async function onCallbackQuery(callbackQuery) {
                         id: tempQuest.id,
                     });
                     bot.editMessageText(
-                        `${questionNumberText[user.language]} ${
-                            userProgress + 1
+                        `${questionNumberText[user.language]} ${userProgress + 1
                         }/${maxUserQuestions} \n${tempQuest.text}`,
                         {
                             chat_id: msg.chat.id,
@@ -350,8 +348,7 @@ bot.on("callback_query", async function onCallbackQuery(callbackQuery) {
                     maxUserQuestions = db.get(msg.chat.id).maxQuestions;
                     tempQuest = questions[user.language][userProgress];
                     bot.editMessageText(
-                        `Question ${userProgress + 1}/${maxUserQuestions} \n${
-                            tempQuest.text
+                        `Question ${userProgress + 1}/${maxUserQuestions} \n${tempQuest.text
                         }`,
                         {
                             chat_id: msg.chat.id,
