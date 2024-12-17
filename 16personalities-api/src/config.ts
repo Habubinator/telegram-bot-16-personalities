@@ -462,4 +462,4 @@ const routeConfig = {
 
 export const routes: typeof routeConfig = routeConfig;
 
-export const PORT = process.env.PORT || 3000;
+export const PORT = 3001;
