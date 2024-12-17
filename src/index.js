@@ -61,7 +61,7 @@ async function postAnswers(answers, retries = 0, maxRetries = 3) {
     let results = (
         await axios.post(
             // "https://www.16personalities-api.com/api/personality/submit",
-            "https://telegram-bot-16-personalities.onrender.com/api/personality/submit",
+            "http://localhost:3001/api/personality/submit",
             {
                 answers,
                 gender: "Other",
